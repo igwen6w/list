@@ -2,7 +2,7 @@
 
 namespace Igwen6w\ListSortable;
 
-use Igwen6w\ListSortable\SortableList;
+use SortableList;
 use Encore\Admin\Admin;
 use Encore\Admin\Form;
 use Illuminate\Support\ServiceProvider;
