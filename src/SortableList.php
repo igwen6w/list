@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Admin\Extensions\igwen6w\ListSortable\src;
+namespace Igwen6w\ListSortable;
 
 use Encore\Admin\Form\Field\ListField;
 
