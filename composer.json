@@ -1,0 +1,33 @@
+{
+    "name": "igwen6w/list",
+    "description": "可排序的 JSON 一维数组组件",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension"],
+    "homepage": "https://github.com/igwen6w/ListSortable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "igwen6w",
+            "email": "igwen6w@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Igwen6w\\ListSortable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Igwen6w\\ListSortable\\ListSortableServiceProvider"
+            ]
+        }
+    }
+}
